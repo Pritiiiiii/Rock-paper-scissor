@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" href="Style.css" />
+    <title>Rock-Paper-Scissor</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock-Paper-Scissor</h1>
+      <div class="choices">
+        <img id="rock" class="choose" onclick="Compchoice()" src="./images/Rock.png" alt="This is rock image"/>
+        <img id="paper" class="choose" onclick="Compchoice()" src="./images/Paper.png" alt="This is paper img" />
+        <img id="scissor" class="choose" onclick="Compchoice()" src="./images/Scissors.png" alt="This is Scissor image" />
+      </div>
+      <div class="select">
+        <div class="yourscore">
+          <h2>You</h2>
+          <span class="user">0</span>
+        </div>
+        <div class="computerscore">
+          <h2>Computer</h2>
+          <span class="computer">0</span>
+        </div>
+      </div>
+      <div class="result">Congratulation!!</div>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
